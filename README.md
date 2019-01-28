@@ -17,6 +17,12 @@ simulateEvents(/path/to/file, filename, factor)
 	* `filename` is the mat file with the inputs (see the examples in the sequences.zip): II (vector of images), O_t (2D groundtruth: x speed, y speed)
 	* `factor` modulates the number of frames, or the minimum latency (check code)   
 
+## Pre-requisites
+
+This code was initially created to translate [Middlebury dataset](http://vision.middlebury.edu/flow/data/) for motion estimation into event raw data, in order to compare event-based and conventional frame-based methods. In order to do that, we include some of the Middlebury sequences to try our code. Since the file is too large to be included in github, we used `git-lfs`. Take a look here to install it: https://github.com/git-lfs/git-lfs/wiki/Tutorial
+
+In order to clone, just do it in the normal way for github after installing `git-lfs`.
+
 ## Publications
 
 If you use this work in an academic context, please cite the following publication:
