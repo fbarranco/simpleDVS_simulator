@@ -21,7 +21,7 @@ simulateEvents(/path/to/file, filename, factor)
 
 This code was initially created to translate [Middlebury dataset](http://vision.middlebury.edu/flow/data/) for motion estimation into event raw data, in order to compare event-based and conventional frame-based methods. In order to do that, we include some of the Middlebury sequences to try our code. Since the file is too large to be included in github, we used `git-lfs`. Take a look here to install it: https://github.com/git-lfs/git-lfs/wiki/Tutorial
 
-In order to clone, just do it in the normal way for github after installing `git-lfs`.
+In order to clone, just do it in the normal way for github after installing `git-lfs`. After cloning, a file called sequences.zip will appear in your local repository. Just uncompress it and run the Matlab code with its files.
 
 ## Publications
 
